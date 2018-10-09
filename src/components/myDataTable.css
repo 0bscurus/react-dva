@@ -1,0 +1,209 @@
+.topHeader {
+  width: 100%;
+  border-sizing: border-box;
+  height: 56px;
+  background: linear-gradient(to right,#37b8d3 , #5a92d6);
+}
+
+.homeLog {
+  width: 140px;
+  height: 47px;
+  margin-left: 50px;
+  background: url(../assets/images/home_logo.png) center;
+  background-size:cover;
+}
+
+.headerleft {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  border-sizing: border-box;
+}
+
+.headerRight {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  border-sizing: border-box;
+}
+
+.headerRight ul{
+  width: 100%;
+
+}
+
+.headerRight ul li{
+  font-size: 14px;
+  color: #fff;
+  float: right;
+  width: 70px;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  list-style: none;
+  cursor:pointer;
+  color: #ccc;
+}
+
+
+
+.zSearch {
+  height: 46px;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 15px;
+  padding-right: 0;
+  font-size: 14px;
+  color: #333333;
+}
+
+
+.content {
+  padding: 0;
+  border: 1px solid #dddddd;
+  color: #333333;
+}
+
+.zButton {
+  width: 80px;
+  margin-top: 8px;
+  font-size: 14px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+
+.contentTop {
+  width: 100%;
+  height: 46px;
+  border-bottom: 1px solid #eee;
+  line-height: 46px;
+  border-sizing: border-box;
+  background-color: #fff;
+  font-size: 14px;
+}
+.title {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.title span {
+  display: inline-block;
+  margin-left: 10px;
+  height: 20px;
+  margin-top: 10px;
+  text-align: center;
+  border-left:5px solid blue;
+}
+.formItem {
+  margin-top: 5px;
+  width: 300px;
+}
+
+.cont_inner {
+  margin: 12px;
+  height: auto;
+  background-color: #fff;
+}
+
+.operation_button {
+  float: right;
+  margin-right: 15px;
+}
+
+.operation_button button{
+  margin: 0;
+  border-radius: 0;
+  height: 28px;
+}
+
+.dataTable table tr td {
+  font-size: 12px !important;
+  padding:8px;
+}
+
+.dataTable table thead tr th {
+  background-color: #f1f1f1;
+  font-size: 12px !important;
+  padding:8px;
+}
+
+.popoverStyle .ant-popover-content{
+  padding:0;
+  background: red;
+
+}
+
+/*.operation_menu {*/
+  /*height: 38px;*/
+  /*margin-top: -31px;*/
+  /*margin-right: -8px;*/
+  /*height: 38px;*/
+  /*padding: 0;*/
+  /*border-radius: 0;*/
+  /*-webkit-box-shadow: 0 0 0 ;*/
+  /*box-shadow: 0 0 0 ;*/
+
+/*}*/
+
+/*.operation_menu_item {*/
+  /*display: inline-block;*/
+  /*line-height: 38px;*/
+  /*font-size: 12px !important;*/
+  /*padding: 0 !important;*/
+  /*margin: 0 !important;*/
+  /*text-align: right ;*/
+/*}*/
+
+/*.operation_menu_item a {*/
+  /*float:left;*/
+  /*padding: 0;*/
+  /*margin: 0 ;*/
+  /*height: 22px;*/
+/*}*/
+
+
+
+.operation_menu {
+  position: relative;
+}
+.operation_menu .operation_menu_item {
+  position: absolute;
+  right: -8px;
+  height: 38px;
+  top:-19px;
+  line-height: 38px;
+  white-space: nowrap;
+  display:none;
+}
+
+.operation_menu .operation_menu_item a, .point2 a{
+  font-size: 12px;
+  padding: 0 8px;
+  border-right: 1px solid #5A92D6;
+  color: #5A92D6;
+  white-space: nowrap;
+}
+
+
+.operation_menu .operation_menu_item a:last-of-type, .point2 a:last-of-type{
+  border-right: 0 ;
+}
+
+.operation_menu:hover .point{
+  display: none;
+}
+
+.operation_menu:hover .operation_menu_item{
+  display: block;
+}
+
+.operation_menu_item :hover {
+  background-color: #fff;
+}
+
+.dataTable .ant-table-fixed-right {
+  overflow: auto !important;
+}
+
+
+

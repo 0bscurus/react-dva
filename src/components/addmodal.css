@@ -1,0 +1,8 @@
+.formItem {
+  width: 80%;
+}
+
+.model_header .ant-modal-content .ant-modal-header {
+  background-color: red !important;
+}
+

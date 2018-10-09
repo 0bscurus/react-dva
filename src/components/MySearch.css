@@ -1,0 +1,40 @@
+.header {
+  background: #fff;
+  padding: 0;
+  border: 1px solid #dddddd;
+  /*height: 98px;*/
+  margin-bottom: 12px;
+}
+
+.zSearch {
+  height: 46px;
+  border-bottom: 1px solid #dddddd;
+  padding-left: 15px;
+  font-size: 14px;
+  color: #333333;
+}
+
+
+.content {
+  padding: 0;
+  border: 1px solid #dddddd;
+  color: #333333;
+}
+
+.zButton {
+  width: 80px;
+  margin-top: 8px;
+  font-size: 14px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+
+.ant_advanced_search_form {
+  padding-top: 10px;
+
+}
+.formItem {
+  display: flex;
+  margin-bottom: 12px;
+}
